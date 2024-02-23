@@ -1,0 +1,50 @@
+.btn-rev {
+  background-color: #e50e0e;
+  border: none;
+  width: 9rem;
+  padding: 0.4rem;
+  color: white;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.div-rat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rates {
+  color: #e50e0e;
+  width: 20rem;
+}
+.big-div {
+  width: 30rem;
+}
+@media (max-width: 768px) {
+  .div-rat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rates {
+    color: #e50e0e;
+    width: 15rem;
+  }
+  .big-div {
+    width: 20rem;
+  }
+}
+@media (max-width: 500px) {
+  .div-rat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .rates {
+    color: #e50e0e;
+    width: 15rem;
+  }
+  .big-div {
+    width: 25rem;
+  }
+}

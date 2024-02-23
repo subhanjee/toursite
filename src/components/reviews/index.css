@@ -1,0 +1,12 @@
+.div-flex{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.div-revie{
+    border: 1px solid #C5C4C4;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
